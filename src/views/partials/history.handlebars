@@ -1,0 +1,12 @@
+      {{#each result as |result|}}
+        <tbody>
+            <tr>
+              <th scope="row">{{this.id}}</th>
+              <td>{{this.title}}</td>
+              <td>{{this.price}}</td>
+              <td>{{this.file}}</td>
+            </tr>
+        </tbody>
+       {{else}}
+        <p>Vacio</p>
+      {{/each}}
